@@ -1,7 +1,7 @@
 body {
     padding: 0%;
     margin: 20px 80px 20px 80px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 img {
@@ -13,16 +13,29 @@ h1 {
     font-family: 'Bebas Neue', cursive;
     font-weight: 800;
     font-size: 80px;
+    color: #363958;
     margin: 0%;
     margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    font-weight: 800;
+    color: #363958;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #363958;
+    margin: 5px;
 }
 
 a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-size: 600;
-    border-radius: 5px;
 }
 
 p {
@@ -40,7 +53,7 @@ p {
 }
 
 #hello span {
-    color: tomato;
+    color: #FF8367;
 }
 
 .nav_menu a {
@@ -49,6 +62,8 @@ p {
     font-weight: 600;
     color: #3C3C3C;
     padding: 40px;
+    background-image: none;
+    padding: 30px;
 }
 
 .half_width {
@@ -61,14 +76,108 @@ p {
     margin-top: 150px;
 }
 
-#hello a {
+a {
     color: white;
     background-image: linear-gradient(120deg, #FC7662, #F56160);
     padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
 }
 
+#about h2 {
+    margin-top: 150px;
+}
 
-/* section {
-    overflow: scroll;
-    margin: 50px;
-} */
+i {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+section {
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+#work {
+    height: 100vh;
+    background-color: #E5E5E5;
+    margin: 20px -80px 0 -80px;
+    padding: 50px 80px 50px 80px;
+}
+
+#work span {
+    color: #F46060;
+}
+
+.box {
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+    margin-left: 1%;
+    /* padding: 5px; */
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #363958;
+    margin: 5px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box p {
+    width: 90%;
+}
+
+.pad {
+    padding: 1%;
+}
+
+#contact span {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 800;
+    font-size: 64px;
+    color: white;
+}
+
+.aaa {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("images/Group_33094_1.png");
+    background-position: center;
+    padding: 150px;
+    background-size: 70%;
+}
+
+.aaa span {
+    float: left;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+
+.aaa a {
+    float: right;
+    margin-right: 150px;
+    margin-top: -10px;
+}
+
+footer img {
+    display: inline;
+    padding: 15px;
+    width: 3%;
+    height: 3%;
+}
+
+footer a {
+    background-image: none;
+}
