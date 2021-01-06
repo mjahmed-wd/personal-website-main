@@ -109,6 +109,13 @@ section {
     padding: 50px 80px 50px 80px;
 }
 
+#work a {
+    margin: 0;
+    padding: 0;
+    background-color: none;
+    background-image: none;
+}
+
 .center span {
     color: #F46060;
 }
