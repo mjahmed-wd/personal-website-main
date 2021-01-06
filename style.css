@@ -104,7 +104,7 @@ section {
 
 #work {
     height: 100vh;
-    background-color: #E5E5E5;
+    background-color: #f8f9fc;
     margin: 20px -80px 0 -80px;
     padding: 50px 80px 50px 80px;
 }
@@ -126,7 +126,7 @@ section {
     border-radius: 20px;
     float: left;
     margin-left: 1%;
-    box-shadow: 5px 5px 30px gray;
+    box-shadow: 2px 2px 30px gray;
     /* padding: 5px; */
 }
 
@@ -204,7 +204,7 @@ footer a {
 }
 
 #counter_main {
-    background-color: #E5E5E5;
+    background-color: #f8f9fc;
     height: 250px;
     margin: 50px -80px;
 }
