@@ -109,7 +109,7 @@ section {
     padding: 50px 80px 50px 80px;
 }
 
-#work span {
+.center span {
     color: #F46060;
 }
 
@@ -119,6 +119,7 @@ section {
     border-radius: 20px;
     float: left;
     margin-left: 1%;
+    box-shadow: 5px 5px 30px gray;
     /* padding: 5px; */
 }
 
@@ -180,4 +181,28 @@ footer img {
 
 footer a {
     background-image: none;
+}
+
+.company {
+    width: 100%;
+}
+
+.company img {
+    width: 15%;
+    height: 15%;
+}
+
+.portfolio h4 {
+    display: inline;
+}
+
+#counter_main {
+    background-color: #E5E5E5;
+    height: 250px;
+    margin: 50px -80px;
+}
+
+.counter {
+    width: 25%;
+    float: left;
 }
